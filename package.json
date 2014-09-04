@@ -1,36 +1,36 @@
 {
-  "name": "raptor-optimizer-cli",
-  "description": "Module to support the optimized delivery of web application resources",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/raptorjs3/raptor-optimizer-cli.git"
-  },
-  "scripts": {
-    "test": "node_modules/.bin/jshint lib/"
-  },
-  "author": "Patrick Steele-Idem <pnidem@gmail.com>",
-  "maintainers": "Patrick Steele-Idem <pnidem@gmail.com>",
-  "dependencies": {
-    "app-module-path": "^0.3.2-beta",
-    "chokidar": "^0.8.4",
-    "colors": "^0.6.2",
-    "minimatch": "^1.0.0",
-    "mkdirp": "^0.5.0",
-    "raptor-args": "^1.0.0-beta",
-    "raptor-optimizer": "^1.0.0-beta",
-    "raptor-polyfill": "^1.0.0-beta",
-    "raptor-promises": "^1.0.0-beta",
-    "raptor-util": "^1.0.0-beta"
-  },
-  "devDependencies": {
-    "jshint": "^2.5.4"
-  },
-  "license": "Apache License v2.0",
-  "bin": {
-    "raptor-optimizer": "./bin/raptor-optimizer"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
-  "version": "1.0.0-beta"
+    "name": "raptor-optimizer-cli",
+    "description": "Module to support the optimized delivery of web application resources",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/raptorjs3/raptor-optimizer-cli.git"
+    },
+    "scripts": {
+        "test": "node_modules/.bin/jshint lib/"
+    },
+    "author": "Patrick Steele-Idem <pnidem@gmail.com>",
+    "maintainers": "Patrick Steele-Idem <pnidem@gmail.com>",
+    "dependencies": {
+        "app-module-path": "^0.3.2-beta",
+        "chokidar": "^0.8.4",
+        "colors": "^0.6.2",
+        "minimatch": "^1.0.0",
+        "mkdirp": "^0.5.0",
+        "raptor-args": "^1.0.0-beta",
+        "raptor-optimizer": "^1.0.0-beta",
+        "raptor-polyfill": "^1.0.0-beta",
+        "raptor-promises": "^1.0.0-beta",
+        "raptor-util": "^1.0.0-beta"
+    },
+    "devDependencies": {
+        "jshint": "^2.5.4"
+    },
+    "license": "Apache License v2.0",
+    "bin": {
+        "raptor-optimizer": "./bin/raptor-optimizer"
+    },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/"
+    },
+    "version": "1.0.1-beta"
 }
