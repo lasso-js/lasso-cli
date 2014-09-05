@@ -1,4 +1,4 @@
-RaptorJS Optimizer Command-lin Interface
+RaptorJS Optimizer CLI
 ========================================
 
 This utility provides support for running the [RaptorJS Optimizer](https://github.com/raptorjs3/raptor-optimizer) from the command-line.
