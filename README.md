@@ -11,8 +11,6 @@ npm install raptor-optimizer-cli --global
 
 # Usage
 
-## Command Line Interface
-
 A simple usage that writes out a JavaScript bundle and a CSS bundle to the `static/` directory that includes all of the required dependencies is shown below:
 
 ```bash
