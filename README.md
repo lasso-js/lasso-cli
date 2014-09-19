@@ -1,12 +1,12 @@
 RaptorJS Optimizer CLI
 ========================================
 
-This utility provides support for running the [RaptorJS Optimizer](https://github.com/raptorjs3/raptor-optimizer) from the command-line.
+This utility provides support for running the [RaptorJS Optimizer](https://github.com/raptorjs3/optimizer) from the command-line.
 
 # Installation
 
 ```bash
-npm install raptor-optimizer-cli --global
+npm install optimizer-cli --global
 ```
 
 # Usage
@@ -14,12 +14,12 @@ npm install raptor-optimizer-cli --global
 A simple usage that writes out a JavaScript bundle and a CSS bundle to the `static/` directory that includes all of the required dependencies is shown below:
 
 ```bash
-raptor-optimizer foo.js style.less --main main.js --name my-page
+optimizer foo.js style.less --main main.js --name my-page
 ```
 
 With additional options:
 ```bash
-raptor-optimizer jquery.js style.less \
+optimizer jquery.js style.less \
     --main main.js \                         # Entry JavaScript module for the browser
     --name my-page \                         # Give the page bundle files a name
     --out static                             # Output directory
@@ -35,11 +35,11 @@ raptor-optimizer jquery.js style.less \
 Alternatively, you can create a JSON configuration file and use that instead:
 
 ```bash
-raptor-optimizer --config optimizer-config.json
+optimizer --config optimizer-config.json
 ```
 
 For additional help from the command line, you can run the following command:
 
 ```bash
-raptor-optimizer --help
+optimizer --help
 ```

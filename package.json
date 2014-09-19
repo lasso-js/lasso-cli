@@ -1,9 +1,9 @@
 {
-    "name": "raptor-optimizer-cli",
+    "name": "optimizer-cli",
     "description": "Module to support the optimized delivery of web application resources",
     "repository": {
         "type": "git",
-        "url": "https://github.com/raptorjs3/raptor-optimizer-cli.git"
+        "url": "https://github.com/raptorjs3/optimizer-cli.git"
     },
     "scripts": {
         "test": "node_modules/.bin/jshint lib/"
@@ -17,7 +17,7 @@
         "minimatch": "^1.0.0",
         "mkdirp": "^0.5.0",
         "raptor-args": "^1.0.0-beta",
-        "raptor-optimizer": "^1.0.0-beta",
+        "optimizer": "^1.0.0-beta",
         "raptor-polyfill": "^1.0.0-beta",
         "raptor-promises": "^1.0.0-beta",
         "raptor-util": "^1.0.0-beta"
@@ -27,10 +27,10 @@
     },
     "license": "Apache License v2.0",
     "bin": {
-        "raptor-optimizer": "./bin/raptor-optimizer"
+        "optimizer": "./bin/optimizer"
     },
     "publishConfig": {
         "registry": "https://registry.npmjs.org/"
     },
-    "version": "1.0.3-beta"
+    "version": "1.1.0"
 }
