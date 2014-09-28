@@ -1,36 +1,36 @@
 {
-  "name": "optimizer-cli",
-  "description": "Module to support the optimized delivery of web application resources",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/raptorjs3/optimizer-cli.git"
-  },
-  "scripts": {
-    "test": "node_modules/.bin/jshint lib/"
-  },
-  "author": "Patrick Steele-Idem <pnidem@gmail.com>",
-  "maintainers": "Patrick Steele-Idem <pnidem@gmail.com>",
-  "dependencies": {
-    "app-module-path": "^1.0.0",
-    "chokidar": "^0.8.4",
-    "colors": "^0.6.2",
-    "minimatch": "^1.0.0",
-    "mkdirp": "^0.5.0",
-    "raptor-args": "^1.0.0",
-    "optimizer": "^1.0.0",
-    "raptor-polyfill": "^1.0.0",
-    "raptor-promises": "^1.0.1",
-    "raptor-util": "^1.0.0"
-  },
-  "devDependencies": {
-    "jshint": "^2.5.4"
-  },
-  "license": "Apache License v2.0",
-  "bin": {
-    "optimizer": "./bin/optimizer"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
-  "version": "1.1.2"
+    "name": "optimizer-cli",
+    "description": "Module to support the optimized delivery of web application resources",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/raptorjs3/optimizer-cli.git"
+    },
+    "scripts": {
+        "test": "node_modules/.bin/jshint lib/"
+    },
+    "author": "Patrick Steele-Idem <pnidem@gmail.com>",
+    "maintainers": "Patrick Steele-Idem <pnidem@gmail.com>",
+    "dependencies": {
+        "app-module-path": "^1.0.0",
+        "chokidar": "^0.8.4",
+        "colors": "^0.6.2",
+        "minimatch": "^1.0.0",
+        "mkdirp": "^0.5.0",
+        "raptor-args": "^1.0.0",
+        "optimizer": "^1.0.0",
+        "raptor-polyfill": "^1.0.0",
+        "raptor-promises": "^1.0.1",
+        "raptor-util": "^1.0.0"
+    },
+    "devDependencies": {
+        "jshint": "^2.5.4"
+    },
+    "license": "Apache License v2.0",
+    "bin": {
+        "optimizer": "./bin/optimizer"
+    },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/"
+    },
+    "version": "1.1.3"
 }
