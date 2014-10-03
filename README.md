@@ -1,7 +1,7 @@
 RaptorJS Optimizer CLI
 ========================================
 
-This utility provides support for running the [RaptorJS Optimizer](https://github.com/raptorjs3/optimizer) from the command-line.
+This utility provides support for running the [RaptorJS Optimizer](https://github.com/raptorjs/optimizer) from the command-line.
 
 # Installation
 
