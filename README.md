@@ -1,7 +1,7 @@
 Lasso.js CLI
 ========================================
 
-This utility provides support for running the [Lasso.js](https://github.com/raptorjs/lasso) from the command-line.
+This utility provides support for running the [Lasso.js](https://github.com/lasso-js/lasso) from the command-line.
 
 # Installation
 
