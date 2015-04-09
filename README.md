@@ -1,12 +1,12 @@
 RaptorJS Optimizer CLI
 ========================================
 
-This utility provides support for running the [RaptorJS Optimizer](https://github.com/raptorjs/optimizer) from the command-line.
+This utility provides support for running the [RaptorJS Optimizer](https://github.com/raptorjs/lasso) from the command-line.
 
 # Installation
 
 ```bash
-npm install optimizer-cli --global
+npm install lasso-cli --global
 ```
 
 # Usage
@@ -14,12 +14,12 @@ npm install optimizer-cli --global
 A simple usage that writes out a JavaScript bundle and a CSS bundle to the `static/` directory that includes all of the required dependencies is shown below:
 
 ```bash
-optimizer foo.js style.less --main main.js --name my-page
+lasso foo.js style.less --main main.js --name my-page
 ```
 
 With additional options:
 ```bash
-optimizer jquery.js style.less \
+lasso jquery.js style.less \
     --main main.js \                         # Entry JavaScript module for the browser
     --name my-page \                         # Give the page bundle files a name
     --out static                             # Output directory
@@ -35,11 +35,11 @@ optimizer jquery.js style.less \
 Alternatively, you can create a JSON configuration file and use that instead:
 
 ```bash
-optimizer --config optimizer-config.json
+lasso --config lasso-config.json
 ```
 
 For additional help from the command line, you can run the following command:
 
 ```bash
-optimizer --help
+lasso --help
 ```

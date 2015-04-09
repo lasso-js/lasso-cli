@@ -1,2 +1,2 @@
 #!/usr/bin/env node
-require('../lib/optimizer-cli.js')(process.argv.slice(2));
+require('../lib/lasso-cli.js')(process.argv.slice(2));
