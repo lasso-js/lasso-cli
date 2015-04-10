@@ -1,6 +1,6 @@
 {
   "name": "lasso-cli",
-  "description": "Module to support the optimized delivery of web application resources",
+  "description": "Command line interface for Lasso.js which is used to bundle web application resources",
   "repository": {
     "type": "git",
     "url": "https://github.com/lasso-js/lasso-cli.git"
@@ -14,7 +14,7 @@
     "app-module-path": "^1.0.0",
     "chokidar": "^0.8.4",
     "colors": "^0.6.2",
-    "lasso": "^1.8.3",
+    "lasso": "^1.8.4",
     "minimatch": "^1.0.0",
     "mkdirp": "^0.5.0",
     "raptor-args": "^1.0.0",
