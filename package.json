@@ -14,14 +14,14 @@
     "app-module-path": "^1.0.0",
     "colors": "^0.6.2",
     "ignoring-watcher": "^1.1.0",
-    "jsonminify": "^0.4.1",
     "lasso": "^2.1.6",
     "minimatch": "^1.0.0",
     "mkdirp": "^0.5.0",
     "raptor-args": "^1.0.0",
     "raptor-polyfill": "^1.0.0",
     "raptor-promises": "^1.0.1",
-    "raptor-util": "^1.0.0"
+    "raptor-util": "^1.0.0",
+    "strip-json-comments": "^2.0.1"
   },
   "devDependencies": {
     "jshint": "^2.5.4"
