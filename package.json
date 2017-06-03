@@ -15,7 +15,6 @@
         "colors": "^0.6.2",
         "ignoring-watcher": "^1.1.0",
         "lasso": "^2.1.6",
-        "minimatch": "^1.0.0",
         "mkdirp": "^0.5.0",
         "raptor-args": "^1.0.0",
         "raptor-polyfill": "^1.0.0",
